@@ -1,1 +1,0 @@
-options(blogdown.publishDir = "docs")

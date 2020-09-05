@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-uk">
 	<head>
 			<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>espresso</title>
-		<meta name="description" content="Hugrid - grid theme for Hugo with an expanding image preview." />
-		<meta name="keywords" content="Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
 		<meta name="author" content="Bart Rogiers [rogiersbart]" />
 		<link rel="icon" href="favicon.ico" />
 		<meta name="generator" content="Hugo 0.58.3" />
@@ -16,10 +16,10 @@
 		color: ;
 		}
 		</style>
-		<link rel="stylesheet" type="text/css" href="https://rogiersbart.github.io/espresso/css/default.css" />
-		<link rel="stylesheet" type="text/css" href="https://rogiersbart.github.io/espresso/css/component.css" />
+		<link rel="stylesheet" type="text/css" href="/espresso/css/default.css" />
+		<link rel="stylesheet" type="text/css" href="/espresso/css/component.css" />
 		
-		<script src="https://rogiersbart.github.io/espresso/js/modernizr.custom.js"></script>
+		<script src="/espresso/js/modernizr.custom.js"></script>
 
 	
 <script type="application/javascript">
@@ -45,7 +45,7 @@ if (!doNotTrack) {
 				<ul id="og-grid" class="og-grid">
 					
 					<li>
-						<a href="" data-largesrc="" data-title="About" data-description=" This project is basically a digital copy of my " data-buttontext="">
+						<a href="" data-largesrc="" data-title="About" data-description=" This project is ... " data-buttontext="">
 							<img src="https://drive.google.com/uc?export=view&amp;id=1fEILD9NA92lkcsjYFbh0IyFCXR90jzPR" alt="About"/>
 						</a>
 					</li>
@@ -111,7 +111,7 @@ if (!doNotTrack) {
 					</li>
 					
 					<li>
-						<a href="" data-largesrc="" data-title="The beginnings" data-description="  " data-buttontext="">
+						<a href="" data-largesrc="https://drive.google.com/uc?export=view&amp;id=1uvSD4_uC1k2ApG3aSvwDsjVHTuaLDuxu" data-title="The beginnings" data-description="  " data-buttontext="">
 							<img src="https://drive.google.com/uc?export=view&amp;id=1hh9nCwWX5_TGDsuCrgYG7nmZnnD2xfjl" alt="The beginnings"/>
 						</a>
 					</li>
@@ -393,7 +393,7 @@ if (!doNotTrack) {
 					create : function() {
 						this.$title = $( '<h3></h3>' );
 						this.$description = $( '<p></p>' );
-						this.$href = $( '<a href="#" target="_blank">Full resolution</a>' );
+						this.$href = $( '<a href="#" target="_blank">Download source</a>' );
 						this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
 						this.$loading = $( '<div class="og-loading"></div>' );
 						this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
@@ -432,7 +432,7 @@ if (!doNotTrack) {
 						this.$title.html( eldata.title );
 						this.$description.html( eldata.description );
 						if(eldata.buttontext) this.$href.text(eldata.buttontext);
-						else this.$href.text("Full resolution")
+						else this.$href.text("Download source")
 
 						if (eldata.href) {
 							this.$href.attr( 'href', eldata.href );

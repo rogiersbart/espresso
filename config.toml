@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "https://rogiersbart.github.io/espresso/"
-languageCode = "en-us"
+languageCode = "en-uk"
 title = "espresso"
 theme = "hugrid"
 # Enter your tracking code to enable Google Analytics
@@ -9,7 +9,7 @@ googleAnalytics = "UA-XXXXXXXX-Y"
 contentdir = "content"
 datadir = "data"
 layoutdir = "layouts"
-publishdir = "public"
+publishdir = "docs"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
@@ -17,17 +17,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title = "[espresso](https://rogiersbart.github.io/espresso)"
     subtitle = "[rogiersbart.github.io](https://rogiersbart.github.io)"
     author = "Bart Rogiers [rogiersbart]"
-    description = "Hugrid - grid theme for Hugo with an expanding image preview."
-    keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
+    description = ""
+    keywords = ""
 
     # Body background color
     bodybgcolor = "#ffffff"
 
     # Preview container button text
-    buttontext = "Full resolution"
+    buttontext = "Download source"
 
     # Footer text
     footertext = ""
 
     # add extra-css
-    # custom_css = ['css/extra1.css', 'css/extra2.css']
+    # custom_css = ["css/extra1.css", "css/extra2.css"]
