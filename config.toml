@@ -14,8 +14,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     # Meta
-    title = "[espresso](https://rogiersbart.github.io/espresso)"
-    subtitle = "[rogiersbart.github.io](https://rogiersbart.github.io)"
+    title = "<img src='logo.png' width='100px'><br>[espresso](https://rogiersbart.github.io/espresso)"
+    subtitle = "A digital copy of my coffee painting sketchbook."
     author = "Bart Rogiers [rogiersbart]"
     description = ""
     keywords = ""
@@ -27,7 +27,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     buttontext = "Download source"
 
     # Footer text
-    footertext = ""
+    footertext = '<center><p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">This work by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://rogiersbart.github.io/">Bart Rogiers</a> is licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0.</a></p></center><br>'
 
     # add extra-css
     # custom_css = ["css/extra1.css", "css/extra2.css"]
