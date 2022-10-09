@@ -1,0 +1,25 @@
+---
+title: "Espresso"
+format:
+  revealjs:
+    width: 1920
+    height: 1080
+    menu: false
+    progress: false
+    auto-slide: 5000
+    loop: true
+    transition: fade
+    transition-speed: slow
+    background-transition: fade
+    title-slide-attributes:
+      data-background-image: https://drive.google.com/uc?export=view&id=13ydoFUkbV38yZZ2BX_VsPyD3GhII1neg
+      data-background-size: 40%
+    theme: [default, custom.scss]
+    header-includes: <link href="https://drive.google.com/uc?export=view&id=1CqG-De7R5vq-nZp85MvGd93oX4cE8DfW" rel="icon" type="image/png">
+---
+
+```{r}
+#| cache: true
+#| output: asis
+bro::drive_gallery("art/project/espresso")
+```

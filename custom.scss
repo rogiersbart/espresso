@@ -1,0 +1,26 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Fira+Mono:wght@400;700&family=Fira+Sans:ital,wght@400;700');
+
+// Font Variables
+$font-code: 'Fira Code', monospace;
+$font-mono: 'Fira Mono', monospace;
+$font-text: 'Fira Sans', sans-serif;
+
+/*-- scss:defaults --*/
+$font-family-sans-serif: $font-text;
+$font-family-monospace: $font-code;
+$presentation-heading-font: $font-text;
+
+h1, h2 {
+  display: none;
+}
+
+.reveal p {
+  margin: 0px;
+}
+
+div.column {
+  background-color: #ffffffaa;
+  border-radius: 20px;
+  padding: 30px;
+}
